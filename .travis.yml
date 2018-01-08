@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: p0fTXqJdlAliYBCAFQ6LTRN4kl8BpXGCcH41v1VKmf6OaFtKu0/6YawToM5CwJV2cgxHWn3HwipfT9DJ/2kBFERNxm9lejs5DK9+GZD/e00sYt2Ou3D7cEDNpnst+pDrrlpMgMRPx/zf5w7Pslrei/5w2oYS/03cpMxuCHlvsiDYqDW5E+rCQLvNOLyY9/2jVJKy7eLVjpJfqtN8bG1rddZuq8DSod0i1KqLtsD5zHpUODixt4lmZTmLCS9UdEp8fM0kjRW5xXSFEXsr4Pb0ymhMGIt+/GEYavo44U2OoWExSJhTdjQAoy6/cEDi0dwPrP2XJF7EuXH5mXLbitr292M3NQzgTxg5FgJqWYu64DH2lOD2Iwx7Z1bVX7lRG6h45/wZyKfFdTrUFJkcEEVf8jOw2QRMzx067qosEX+LInjp+jKSDgkZoXo6xyxI2tYV4vluWQZC/bodxLjNXrHV2Opc6P6EJjldNSRqIRMvE0Ou23N+mSK81wk3UXi6/HxWfNycwSUTwDUZ2SVrqxXSY2GeIoYvFMEquWvctGhmJzwNQfgus8Jf7f04JjLT1kSC8TU0NEeIYE/rz30Va5UlsevPLUlvbAfzJskLWV47YFvQWOUrLnxr/f9kSjIhAh2+JxKVdnZYWUuklkEV1GpGnJZmmUlY/LV46FXSvGS1kD8=
+  app: https://damp-cove-22124.herokuapp.com
+  on:
+    repo: majickdave/node-shopping-list-integration-tests
